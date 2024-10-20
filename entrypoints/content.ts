@@ -274,9 +274,6 @@ function showModal() {
    
  });
 
-
- 
-
   input.addEventListener("input", () => {
     if (input.value.trim() === "") {
       generateButton.disabled = true;
